@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDuendeIdentityServer.AuthServer", "MyDuendeIdentityServer.AuthServer\MyDuendeIdentityServer.AuthServer.csproj", "{71C49751-A881-4703-83AD-DBD89D38C54A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDuendeIdentityServer.Client1", "MyDuendeIdentityServer.Client1\MyDuendeIdentityServer.Client1.csproj", "{B5693BF8-32E5-412A-AFB0-13B2AA8A04DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDuendeIdentityServer.Client2", "MyDuendeIdentityServer.Client2\MyDuendeIdentityServer.Client2.csproj", "{4A9AEDBE-57DE-4C2A-808F-B677E54F77FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDuendeIdentityServer.API1", "MyDuendeIdentityServer.API1\MyDuendeIdentityServer.API1.csproj", "{4BE3A7AB-E354-44FA-8724-25C6A63AEB1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDuendeIdentityServer.API2", "MyDuendeIdentityServer.API2\MyDuendeIdentityServer.API2.csproj", "{7131B11D-8DDC-4D9D-AC0A-CC548AE62634}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDuendeIdentityServer.Shared", "MyDuendeIdentityServer.Shared\MyDuendeIdentityServer.Shared.csproj", "{641CD922-BC2B-40F6-8E78-DD40365A45BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C49751-A881-4703-83AD-DBD89D38C54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C49751-A881-4703-83AD-DBD89D38C54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C49751-A881-4703-83AD-DBD89D38C54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C49751-A881-4703-83AD-DBD89D38C54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5693BF8-32E5-412A-AFB0-13B2AA8A04DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5693BF8-32E5-412A-AFB0-13B2AA8A04DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5693BF8-32E5-412A-AFB0-13B2AA8A04DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5693BF8-32E5-412A-AFB0-13B2AA8A04DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9AEDBE-57DE-4C2A-808F-B677E54F77FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9AEDBE-57DE-4C2A-808F-B677E54F77FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9AEDBE-57DE-4C2A-808F-B677E54F77FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9AEDBE-57DE-4C2A-808F-B677E54F77FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE3A7AB-E354-44FA-8724-25C6A63AEB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE3A7AB-E354-44FA-8724-25C6A63AEB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE3A7AB-E354-44FA-8724-25C6A63AEB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE3A7AB-E354-44FA-8724-25C6A63AEB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7131B11D-8DDC-4D9D-AC0A-CC548AE62634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7131B11D-8DDC-4D9D-AC0A-CC548AE62634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7131B11D-8DDC-4D9D-AC0A-CC548AE62634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7131B11D-8DDC-4D9D-AC0A-CC548AE62634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641CD922-BC2B-40F6-8E78-DD40365A45BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641CD922-BC2B-40F6-8E78-DD40365A45BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641CD922-BC2B-40F6-8E78-DD40365A45BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641CD922-BC2B-40F6-8E78-DD40365A45BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F7D6517-B3F5-48DE-9C6D-F198CA1EC7F6}
+	EndGlobalSection
+EndGlobal
