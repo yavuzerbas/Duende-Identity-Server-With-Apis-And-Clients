@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 builder.Services.AddIdentityServer()
 	.AddInMemoryApiResources(Config.GetApiResources())
 	.AddInMemoryApiScopes(Config.GetApiScopes())
@@ -33,5 +34,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
 	name: "default",
 	pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages(); // <-- Add Razor Pages mapping
 
 app.Run();
